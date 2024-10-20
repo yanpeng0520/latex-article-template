@@ -53,6 +53,5 @@ By completing the following tasks, you will gain practical experience in setting
 ## Bonus Exercise
 
 5. **Modify the `latex-docker` Workflow to Print the Artifact Link in the Pull Request**:
-   - Edit the `.github/workflows/latex-docker.yml` file to include a step that prints the link to the PDF artifact in the pull request.
-   - You can use the `actions/upload-artifact` and `actions/github-script` actions to achieve this.
+   - Edit the `.github/workflows/latex-docker.yml` file to include a second job that prints the link to the PDF artifact in the pull request but runs only upon successful completion of the first job.   - You can use the `actions/upload-artifact` and `actions/github-script` actions to achieve this.
    - Create a pull request and observe the comments. What do you observe?
