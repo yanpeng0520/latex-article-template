@@ -43,7 +43,7 @@ By completing the following tasks, you will gain practical experience in setting
 3. **Use an Action to Speed Up the Compilation Process**:
    - Go to the [GitHub Marketplace](https://github.com/marketplace?type=actions) and search for an action that can compile LaTeX documents (hint: use `texlive` as a keyword).
    - Modify the workflow to use an action to speed up the LaTeX compilation process.
-   - Observe the pipeline run time before and after adding the caching action. What do you observe and why?
+   - Observe the pipeline run time before and after adding the action. What do you observe and why?
 
 4. **Add a Second Workflow Using the TeX Live Docker Image**:
    - Create a new workflow file `.github/workflows/latex-docker.yml` that uses the [TeX Live Docker image](https://hub.docker.com/r/texlive/texlive) to compile the document.
