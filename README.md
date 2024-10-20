@@ -37,7 +37,7 @@ By completing the following tasks, you will gain practical experience in setting
         - What is an artifact?
 
 2. **Modify the Workflow to Run Only on the Main Branch**:
-   - Edit the `.github/workflows/latex.yml` file to ensure the workflow runs only on the `main` branch.
+   - Edit the `.github/workflows/latexBuild.yml` file to ensure the workflow runs only on the `main` branch.
    - Push a change to a different branch and observe if the workflow is triggered. What do you observe?
 
 3. **Use an Action to Speed Up the Compilation Process**:
